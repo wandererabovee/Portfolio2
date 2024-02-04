@@ -1,0 +1,105 @@
+/* Apply font to all text on the website */
+/* Apply IBM Plex Mono font to all text on the website */
+body {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  
+  
+  
+nav.navbar .navbar-nav .nav-item .nav-link.nav-button {
+    background-color: black;
+    padding: 0px 0px 0px 10px; 
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+    margin-right: 10px;
+}
+
+
+nav.navbar .navbar-nav .nav-item .nav-link.nav-button .button-text {
+    color: white; 
+    margin-right: 10px; 
+}
+
+
+.nav-button:last-child {
+    padding-right: 0;
+}
+
+/* Change background color on hover */
+.nav-button:hover {
+    background-color: #f8f9fa;
+}
+
+/* Change text color on hover */
+.nav-button:hover .button-text {
+    color: black;
+}
+
+
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('images/main-image.gif');
+    background-size:cover;
+    background-position: center bottom; /* only for main-image2*/
+    position:relative;
+}
+/* text css above hero image*/
+section#home .hero-text {
+    text-align: center;
+    position: absolute;
+    height: 20%;
+    width: 25%;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: black; /* Adjust background color and opacity as needed */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Add rounded corners if desired */
+}
+
+.hero_title {
+    font-size: 4 rem;
+}
+
+.hero_desc {
+    font-size: 4 rem;
+}
+
+
+/* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: red;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: white;
+    text-align: center;
+}
+
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
